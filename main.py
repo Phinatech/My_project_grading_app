@@ -3,7 +3,7 @@ from grade_book import GradeBook;
 grade_book = GradeBook()
 
 while True:
-    print("Welcome to Eldrige's Grade Book Application!")
+    print("Welcome to Chinemerem's Grade Book Application!")
     print("Please choose an action:")
     print("1. Add a student")
     print("2. Add a course")
