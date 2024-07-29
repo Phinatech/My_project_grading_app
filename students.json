@@ -41,7 +41,7 @@
                 "grade": 86
             }
         ],
-        "GPA": 0.0
+        "GPA": 86.0
     },
     {
         "email": "commodorehansolo@gmail.com",
@@ -60,7 +60,7 @@
                 "grade": 55
             }
         ],
-        "GPA": 0.0
+        "GPA": 65.0
     },
     {
         "email": "mosese@gmail.com",
@@ -73,5 +73,63 @@
         "names": "Benson Femi",
         "courses_registered": [],
         "GPA": 0.0
+    },
+    {
+        "email": "paul@gmail.com",
+        "names": "Paul Kagame",
+        "courses_registered": [
+            {
+                "name": "Cloud computing",
+                "trimester": "Jan 2024",
+                "credits": 30,
+                "grade": 57
+            }
+        ],
+        "GPA": 57.0
+    },
+    {
+        "email": "daniel@gmail.com",
+        "names": "Daniel Keyan",
+        "courses_registered": [
+            {
+                "name": "IPD",
+                "trimester": "May 2024",
+                "credits": 70.0,
+                "grade": 50
+            }
+        ],
+        "GPA": 50.0
+    },
+    {
+        "email": "yinka@gmail.com",
+        "names": "Yinka bobo",
+        "courses_registered": [
+            {
+                "name": "Cloud computing",
+                "trimester": "Jan 2024",
+                "credits": 30,
+                "grade": 85
+            },
+            {
+                "name": "Cloud computing",
+                "trimester": "Jan 2024",
+                "credits": 30,
+                "grade": 100
+            }
+        ],
+        "GPA": 92.5
+    },
+    {
+        "email": "simeon@gmail.com",
+        "names": "Simeon Doe",
+        "courses_registered": [
+            {
+                "name": "Cloud computing",
+                "trimester": "Jan 2024",
+                "credits": 30,
+                "grade": 84
+            }
+        ],
+        "GPA": 84.0
     }
 ]

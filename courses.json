@@ -53,5 +53,20 @@
         "name": "Python fundaments",
         "trimester": "Jan 2024",
         "credits": 20
+    },
+    {
+        "name": "Cloud computing",
+        "trimester": "Jan 2024",
+        "credits": 30
+    },
+    {
+        "name": "IPD",
+        "trimester": "May 2024",
+        "credits": 56
+    },
+    {
+        "name": "Cloud computing",
+        "trimester": "Jan 2024",
+        "credits": 30
     }
 ]

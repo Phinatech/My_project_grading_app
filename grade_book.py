@@ -50,8 +50,7 @@ class GradeBook:
             student.register_for_course(course)
             self.save_students()
             print('----------------------------------------------')
-            print(f"Student {student.names} registered for course {
-                  course.name}.")
+            print(f"Student {student.names} registered for course {course.name}.")
             print('----------------------------------------------')
         else:
             print("Student or course not found.")
@@ -64,20 +63,20 @@ class GradeBook:
         print('------------------------------------------------------------')
         print(f"{'Rank':<5}{'Name':<20}{'Email':<20}{'GPA':<5}")
         for i, student in enumerate(sorted_students, start=1):
-            print(f"{i:<5}{student.names:<20}{
-                  student.email:<20}{student.GPA:.2f}")
+            print(f"{i:<5}{student.names:<20}{student.email:<20}{student.GPA:.2f}")
         print('------------------------------------------------------------')
 
         return sorted_students
 
-    def search_by_grade(self, grade_range):
+    def search_by_grade(self,min_grade, max_grade):
         students = []
         for student in self.student_list:
             for course in student.courses_registered:
-                if grade_range[0] <= course['grade'] <= grade_range[1]:
-                    students.append(student)
+                if course['grade'] >= min_grade and course['grade'] <= max_grade:
+                    students.append((student.names, course['grade']))
                     break
-        return students
+        print(students)
+        return [student for student, _ in students]
 
     def save_students(self):
         """

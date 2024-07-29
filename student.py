@@ -31,7 +31,7 @@ class Student:
             'credits': course.credits,
             'grade': grade
         })
-        # self.calculate_GPA()
+        self.calculate_GPA()
 
     def calculate_GPA(self):
         total_credits = 0

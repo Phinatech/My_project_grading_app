@@ -1,8 +1,8 @@
-from grade_book import GradeBook;
+from grade_book import GradeBook
 
 grade_book = GradeBook()
 
-while True:
+def display_menu():
     print("Welcome to Chinemerem's Grade Book Application!")
     print("Please choose an action:")
     print("1. Add a student")
@@ -15,28 +15,20 @@ while True:
     print("8. Print course list")
     print("9. Exit")
 
+while True:
+    display_menu()
     choice = input("Enter your choice (1-9): ")
 
     if choice == "1":
         email = input("Enter student email: ")
         names = input("Enter student names: ")
-        student = grade_book.add_student(email, names)
-
-        continue_choice = input("Do you want to perform another action? (yes/no): ").strip().lower()
-        if continue_choice != 'yes':
-            print("Exiting Grade Book Application...")
-            break
+        grade_book.add_student(email, names)
 
     elif choice == "2":
         name = input("Enter course name: ")
         trimester = input("Enter course trimester: ")
         credits = int(input("Enter course credits: "))
-        course = grade_book.add_course(name, trimester, credits)
-
-        continue_choice = input("Do you want to perform another action? (yes/no): ").strip().lower()
-        if continue_choice != 'yes':
-            print("Exiting Grade Book Application...")
-            break
+        grade_book.add_course(name, trimester, credits)
 
     elif choice == "3":
         student_email = input("Enter student email: ")
@@ -47,19 +39,15 @@ while True:
         grade_book.calculate_GPA()
         print("Student ranking calculated successfully.")
 
-        continue_choice = input("Do you want to perform another action? (yes/no): ").strip().lower()
-        if continue_choice != 'yes':
-            print("Exiting Grade Book Application...")
-            break
-
     elif choice == "5":
         min_grade = float(input("Enter minimum grade: "))
         max_grade = float(input("Enter maximum grade: "))
-        students = grade_book.search_by_grade((min_grade, max_grade))
+        students = grade_book.search_by_grade(min_grade, max_grade)
+        print(students)
         if students:
             print("Students found:")
-            for student in students:
-                print(f"- {student.names} ({student.email})")
+            for student, grade in students:
+                print(f"Name: {student.names}, Email: {student.email}, Grade: {grade}")
         else:
             print("No students found within the specified grade range.")
 
@@ -83,8 +71,7 @@ while True:
         print("Printing course list...")
         print('----------------------------------------------------')
         for course in grade_book.course_list:
-            print(f"Name: {course.name}",
-                  f"Trimester: {course.trimester}")
+            print(f"Name: {course.name}", f"Trimester: {course.trimester}")
         print('----------------------------------------------------')
 
     elif choice == "9":
@@ -93,3 +80,9 @@ while True:
 
     else:
         print("Invalid choice. Please try again.")
+
+    # Ask if the user wants to perform another action
+    continue_choice = input("Do you want to perform another action? (yes/no): ").strip().lower()
+    if continue_choice != 'yes':
+        print("Exiting Grade Book Application...")
+        break
