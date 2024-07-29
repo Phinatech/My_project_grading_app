@@ -22,11 +22,21 @@ while True:
         names = input("Enter student names: ")
         student = grade_book.add_student(email, names)
 
+        continue_choice = input("Do you want to perform another action? (yes/no): ").strip().lower()
+        if continue_choice != 'yes':
+            print("Exiting Grade Book Application...")
+            break
+
     elif choice == "2":
         name = input("Enter course name: ")
         trimester = input("Enter course trimester: ")
         credits = int(input("Enter course credits: "))
         course = grade_book.add_course(name, trimester, credits)
+
+        continue_choice = input("Do you want to perform another action? (yes/no): ").strip().lower()
+        if continue_choice != 'yes':
+            print("Exiting Grade Book Application...")
+            break
 
     elif choice == "3":
         student_email = input("Enter student email: ")
@@ -36,6 +46,11 @@ while True:
     elif choice == "4":
         grade_book.calculate_GPA()
         print("Student ranking calculated successfully.")
+
+        continue_choice = input("Do you want to perform another action? (yes/no): ").strip().lower()
+        if continue_choice != 'yes':
+            print("Exiting Grade Book Application...")
+            break
 
     elif choice == "5":
         min_grade = float(input("Enter minimum grade: "))

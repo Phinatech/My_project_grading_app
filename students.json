@@ -1,0 +1,77 @@
+[
+    {
+        "email": "jessica@gmail.com",
+        "names": "Jessica Ugbo",
+        "courses_registered": [
+            {
+                "name": "Intoduction to Linux development",
+                "trimester": "May 2023",
+                "credits": 20,
+                "grade": 96
+            }
+        ],
+        "GPA": 96.0
+    },
+    {
+        "email": "1",
+        "names": "Intoduction to Linux development",
+        "courses_registered": [],
+        "GPA": 0.0
+    },
+    {
+        "email": "joseph@alustudent.com",
+        "names": "Joseph Babalola",
+        "courses_registered": [],
+        "GPA": 0.0
+    },
+    {
+        "email": "eben@gmail.com",
+        "names": "Ebenezer joel",
+        "courses_registered": [],
+        "GPA": 0.0
+    },
+    {
+        "email": "moses@gmail.com",
+        "names": "Moses Adeyeye",
+        "courses_registered": [
+            {
+                "name": "JavaScript",
+                "trimester": "Jan 2024",
+                "credits": 80,
+                "grade": 86
+            }
+        ],
+        "GPA": 0.0
+    },
+    {
+        "email": "commodorehansolo@gmail.com",
+        "names": "Michael",
+        "courses_registered": [
+            {
+                "name": "Python Fundamentals",
+                "trimester": "Jan 2024",
+                "credits": 20,
+                "grade": 85
+            },
+            {
+                "name": "Linux essentials",
+                "trimester": "Jan 2024",
+                "credits": 40,
+                "grade": 55
+            }
+        ],
+        "GPA": 0.0
+    },
+    {
+        "email": "mosese@gmail.com",
+        "names": "Moses bliss",
+        "courses_registered": [],
+        "GPA": 0.0
+    },
+    {
+        "email": "benson@gmail.com",
+        "names": "Benson Femi",
+        "courses_registered": [],
+        "GPA": 0.0
+    }
+]
