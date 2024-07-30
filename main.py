@@ -11,8 +11,8 @@ def display_menu():
     print("4. Calculate student ranking")
     print("5. Search by grade")
     print("6. Generate transcript")
-    print("7. Print student list")
-    print("8. Print course list")
+    print("7. Print list of students")
+    print("8. Print list of course")
     print("9. Exit")
 
 while True:

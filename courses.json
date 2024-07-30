@@ -3,5 +3,10 @@
         "name": "Javascript",
         "trimester": "Jan 2024",
         "credits": 20
+    },
+    {
+        "name": "Introduction_to_python",
+        "trimester": "Jan 2024",
+        "credits": 15
     }
 ]
