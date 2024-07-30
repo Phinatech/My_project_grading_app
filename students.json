@@ -11,5 +11,37 @@
             }
         ],
         "GPA": 0.0
+    },
+    {
+        "email": "herve@gmail.com",
+        "names": "Herve Musanga",
+        "courses_registered": [],
+        "GPA": 0.0
+    },
+    {
+        "email": "precious@gmail.com",
+        "names": "Precious Moiza",
+        "courses_registered": [
+            {
+                "name": "Database",
+                "trimester": "Jan 2024",
+                "credits": 10,
+                "grade": 99
+            }
+        ],
+        "GPA": 0.0
+    },
+    {
+        "email": "joseph@gmail.com",
+        "names": "Joseph phli",
+        "courses_registered": [
+            {
+                "name": "Intro_to_Linux",
+                "trimester": "Jan 2024",
+                "credits": 8,
+                "grade": 51
+            }
+        ],
+        "GPA": 0.0
     }
 ]

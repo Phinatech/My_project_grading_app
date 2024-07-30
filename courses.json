@@ -8,5 +8,15 @@
         "name": "Introduction_to_python",
         "trimester": "Jan 2024",
         "credits": 15
+    },
+    {
+        "name": "Database",
+        "trimester": "Jan 2024",
+        "credits": 10
+    },
+    {
+        "name": "Intro_to_Linux",
+        "trimester": "Jan 2024",
+        "credits": 8
     }
 ]
