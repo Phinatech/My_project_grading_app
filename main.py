@@ -36,17 +36,17 @@ while True:
         grade_book.register_student_for_course(student_email, course_name)
 
     elif choice == "4":
-        grade_book.calculate_GPA()
+        grade_book.calculate_ranking()
         print("Student ranking calculated successfully.")
 
     elif choice == "5":
         min_grade = float(input("Enter minimum grade: "))
         max_grade = float(input("Enter maximum grade: "))
         students = grade_book.search_by_grade(min_grade, max_grade)
-        print(students)
+        # print(students)
         if students:
             print("Students found:")
-            for student, grade in students:
+            for student,grade in students:
                 print(f"Name: {student.names}, Email: {student.email}, Grade: {grade}")
         else:
             print("No students found within the specified grade range.")

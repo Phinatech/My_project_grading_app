@@ -1,6 +1,7 @@
 
 import json
 from student import Student
+# from student import calculate_GPA
 from course import Course
 
 STUDENTS_JSON = 'students.json'
@@ -55,9 +56,9 @@ class GradeBook:
         else:
             print("Student or course not found.")
 
-    def calculate_GPA(self):
+    def calculate_ranking(self):
         for student in self.student_list:
-            student.calculate_GPA()
+            student.GPA = student.calculate_GPA()
         sorted_students = sorted(
             self.student_list, key=lambda s: s.GPA, reverse=True)
         print('------------------------------------------------------------')
@@ -94,10 +95,11 @@ class GradeBook:
                 [course.__dict__ for course in self.course_list], file, indent=4)
 
     def generate_transcript(self, student):
+        gpa = student.calculate_GPA()
         print('------------------------------------------------------------')
         print(f"Transcript for {student.names}")
         print(f"Email: {student.email}")
-        print(f"GPA: {student.GPA:.2f}")
+        print(f"GPA: {gpa:.2f}")
         print("Courses Registered:")
         for course in student.courses_registered:
             print(

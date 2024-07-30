@@ -1,135 +1,15 @@
 [
     {
-        "email": "jessica@gmail.com",
-        "names": "Jessica Ugbo",
+        "email": "jose@gmail.com",
+        "names": "Jose Daniel",
         "courses_registered": [
             {
-                "name": "Intoduction to Linux development",
-                "trimester": "May 2023",
-                "credits": 20,
-                "grade": 96
-            }
-        ],
-        "GPA": 96.0
-    },
-    {
-        "email": "1",
-        "names": "Intoduction to Linux development",
-        "courses_registered": [],
-        "GPA": 0.0
-    },
-    {
-        "email": "joseph@alustudent.com",
-        "names": "Joseph Babalola",
-        "courses_registered": [],
-        "GPA": 0.0
-    },
-    {
-        "email": "eben@gmail.com",
-        "names": "Ebenezer joel",
-        "courses_registered": [],
-        "GPA": 0.0
-    },
-    {
-        "email": "moses@gmail.com",
-        "names": "Moses Adeyeye",
-        "courses_registered": [
-            {
-                "name": "JavaScript",
-                "trimester": "Jan 2024",
-                "credits": 80,
-                "grade": 86
-            }
-        ],
-        "GPA": 86.0
-    },
-    {
-        "email": "commodorehansolo@gmail.com",
-        "names": "Michael",
-        "courses_registered": [
-            {
-                "name": "Python Fundamentals",
+                "name": "Javascript",
                 "trimester": "Jan 2024",
                 "credits": 20,
-                "grade": 85
-            },
-            {
-                "name": "Linux essentials",
-                "trimester": "Jan 2024",
-                "credits": 40,
-                "grade": 55
+                "grade": 78
             }
         ],
-        "GPA": 65.0
-    },
-    {
-        "email": "mosese@gmail.com",
-        "names": "Moses bliss",
-        "courses_registered": [],
         "GPA": 0.0
-    },
-    {
-        "email": "benson@gmail.com",
-        "names": "Benson Femi",
-        "courses_registered": [],
-        "GPA": 0.0
-    },
-    {
-        "email": "paul@gmail.com",
-        "names": "Paul Kagame",
-        "courses_registered": [
-            {
-                "name": "Cloud computing",
-                "trimester": "Jan 2024",
-                "credits": 30,
-                "grade": 57
-            }
-        ],
-        "GPA": 57.0
-    },
-    {
-        "email": "daniel@gmail.com",
-        "names": "Daniel Keyan",
-        "courses_registered": [
-            {
-                "name": "IPD",
-                "trimester": "May 2024",
-                "credits": 70.0,
-                "grade": 50
-            }
-        ],
-        "GPA": 50.0
-    },
-    {
-        "email": "yinka@gmail.com",
-        "names": "Yinka bobo",
-        "courses_registered": [
-            {
-                "name": "Cloud computing",
-                "trimester": "Jan 2024",
-                "credits": 30,
-                "grade": 85
-            },
-            {
-                "name": "Cloud computing",
-                "trimester": "Jan 2024",
-                "credits": 30,
-                "grade": 100
-            }
-        ],
-        "GPA": 92.5
-    },
-    {
-        "email": "simeon@gmail.com",
-        "names": "Simeon Doe",
-        "courses_registered": [
-            {
-                "name": "Cloud computing",
-                "trimester": "Jan 2024",
-                "credits": 30,
-                "grade": 84
-            }
-        ],
-        "GPA": 84.0
     }
 ]

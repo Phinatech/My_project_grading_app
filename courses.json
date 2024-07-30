@@ -1,72 +1,7 @@
 [
     {
-        "name": "Reflective Thinking",
+        "name": "Javascript",
         "trimester": "Jan 2024",
         "credits": 20
-    },
-    {
-        "name": "Python Fundamentals",
-        "trimester": "Jan 2024",
-        "credits": 20
-    },
-    {
-        "name": "IPD",
-        "trimester": "May 2024",
-        "credits": 70.0
-    },
-    {
-        "name": "Linux essentials",
-        "trimester": "Jan 2024",
-        "credits": 40
-    },
-    {
-        "name": "Intoduction to Linux development",
-        "trimester": "May 2023",
-        "credits": 20
-    },
-    {
-        "name": "Database",
-        "trimester": "Jan 2024",
-        "credits": 40
-    },
-    {
-        "name": "Python ",
-        "trimester": "Jan 2024",
-        "credits": 45
-    },
-    {
-        "name": "Introduction to Linxus",
-        "trimester": "Jan 2024",
-        "credits": 30
-    },
-    {
-        "name": "SQL",
-        "trimester": "Jan 2024",
-        "credits": 35
-    },
-    {
-        "name": "JavaScript",
-        "trimester": "Jan 2024",
-        "credits": 80
-    },
-    {
-        "name": "Python fundaments",
-        "trimester": "Jan 2024",
-        "credits": 20
-    },
-    {
-        "name": "Cloud computing",
-        "trimester": "Jan 2024",
-        "credits": 30
-    },
-    {
-        "name": "IPD",
-        "trimester": "May 2024",
-        "credits": 56
-    },
-    {
-        "name": "Cloud computing",
-        "trimester": "Jan 2024",
-        "credits": 30
     }
 ]
