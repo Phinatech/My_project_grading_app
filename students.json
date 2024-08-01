@@ -43,5 +43,18 @@
             }
         ],
         "GPA": 0.0
+    },
+    {
+        "email": "jok@gmail.com",
+        "names": "John jok",
+        "courses_registered": [
+            {
+                "name": "Nodejs",
+                "trimester": "20",
+                "credits": 15,
+                "grade": 73
+            }
+        ],
+        "GPA": 0.0
     }
 ]
